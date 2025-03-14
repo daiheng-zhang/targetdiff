@@ -83,7 +83,7 @@ It will generate a `index.pkl` file and create a new directory containing the or
 ## Training
 ### Training from scratch
 ```bash
-python scripts/train_diffusion.py configs/training.yml
+$ PYTHONPATH=$(pwd):$PYTHONPATH python scripts/train_diffusion.py configs/training.yml
 ```
 ### Trained model checkpoint
 https://drive.google.com/drive/folders/1-ftaIrTXjWFhw3-0Twkrs5m0yX6CNarz?usp=share_link
