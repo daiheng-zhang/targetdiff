@@ -217,3 +217,9 @@ Expected prediction: Kd=5.23 nm.  Ground-truth: Kd=5.6 nm
   year={2023}
 }
 ```
+
+## Activate debug environment
+```bash
+srun -A bcrc-delta-gpu --time=01:00:00 --nodes=1 --ntasks-per-node=16 --partition=gpuA100x4 --gpus=1 --mem=16g --pty /bin/bash
+```
+
